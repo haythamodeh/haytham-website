@@ -658,11 +658,12 @@ hr.star-primary:after {
 
 
 footer {
+    display: block;
     padding-top: 10px;
     margin: 0;
     width: 100%;
     color: #fff;
-    background-color: #171717f7;
+    background-color: #222;
     box-shadow: inset 2px 4px 9px 0px rgba(0,0,0,0.46);
 }
 
