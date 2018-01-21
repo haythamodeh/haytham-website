@@ -164,8 +164,8 @@ nav .navbar.navsmall {
 }
 
 #home .btn:hover {
-    border-color: #9E788F;
-    color: #9E788F;
+    border-color: ##357ab9;
+    color: ##357ab9;
 }
 
 
@@ -622,16 +622,26 @@ hr.star-primary:after {
 #contact .form-group input[type="text"] {
     margin: 0 auto;
     width: 350px;
+    font-size: 17px;
 }
 
 #contact .form-group textarea {
     width: 350px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 17px;
 }
 
-#contact button {
+
+#contact .btn-default {
     width: 174px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    overflow: hidden;
+    transition: .3s ease;
+}
+#contact .btn-default:hover {
+    background-color: #357ab9;
 }
 
 @media (max-width: 370px) {
