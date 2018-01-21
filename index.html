@@ -1,3 +1,4 @@
+<?php include 'validation.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -166,36 +167,32 @@
             <h1 class="text-center">Have Any Questions?</h1>
             <h3 class="text-center"> Feel Free To Contact Me!</h3>
             <hr class="star-primary">
-            <form class="text-center">
-
+            <form method="post" action="validation.php" class="text-center">
 
                 <div class="form-group">
-
                     <label for="firstName">Name</label>
-                    <input type="text" class="form-control " id="name" placeholder="Enter Name">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name">
+                    <span class="error"><?php echo $messageError;?></span>
+
                 </div>
-
-
 
                 <div class="form-group">
                     <label for="email">Enter Email</label>
-                    <input type="text" class="form-control" id="email" placeholder="Enter Email">
+                    <input type="text" name="email" class="form-control" id="email" placeholder="Enter Email">
+                    <span class="error"><?php echo $messageError;?></span>
+
                 </div>
-
-
-
-
-
-
-
 
                 <div class="form-group">
                     <label for="message">Your Message</label>
-                    <textarea rows="5" type="text-area" class="form-control " id="message" placeholder="Message"></textarea>
+                    <textarea rows="5" type="text-area" name="message" class="form-control " id="message" placeholder="Message"></textarea>
+                    <span class="error"><?php echo $messageError;?></span>
+
                 </div>
 
                 <button type="submit" class="btn btn-default">Submit</button>
                 <button type="reset" class="btn btn-default">Reset</button>
+                
             </form>
         </div>
     </section>
