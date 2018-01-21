@@ -5,6 +5,9 @@
     box-sizing: border-box;
     position: relative;
 }
+html {
+    overflow-x: hidden;
+}
 
 
 body { 
