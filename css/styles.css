@@ -469,7 +469,7 @@ hr.star-primary:after {
 
 @media(max-width: 944px){
     #events .box {
-        width: 250px;
+        width: 270px;
     }
     #events .box .pic img {
         width: 100%;
@@ -504,10 +504,11 @@ hr.star-primary:after {
 
 @media(max-width: 572px){
     #events .box {
-        width: 100%;
+        width: 400px;
+        margin-bottom: 2em;
     }
     #events .box .pic img {
-        width: 390px;
+        width: 100%;
         height: 150px;
     }
     #events  .box .button  {
@@ -526,7 +527,11 @@ hr.star-primary:after {
     }
     
 }
-@media(max-width: 456px){
+@media(max-width: 440px){
+     #events .box {
+        width: 100%;
+    }
+    
     #events .box .pic img {
         width: 100%;
     }
@@ -583,7 +588,7 @@ hr.star-primary:after {
 
 @media(max-width: 944px){
     #videos .box {
-        width: 250px;
+        width: 270px;
     }
     #videos .box .video iframe {
         width: 100%;
