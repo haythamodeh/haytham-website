@@ -16,91 +16,6 @@ body {
 
 
 
-nav.navbar {
-    min-height: 90px;
-    padding-top: 20px;
-    -webkit-transition: all 0.4s ease;
-   transition: all 0.4s ease;
-}
-
-nav.navbar.shrink {
-  min-height: 50px;
-    padding-top: 0;
-}
-
-.navbar-inverse .nav .donatebtn {
-    color: black;
-    padding: 6px 10px;
-    margin-top: 10px;
-    font-size: 17px;
-}
-.navbar-inverse .nav .donatebtn:hover {
-    background-color: #cacaca;
-    color: black;
-}
-
-.navbar-inverse {
-    background-color: #193242;
-    border-color: transparent;
-    box-shadow: 0 2px 9px 1px rgba(0,0,0,0.46);
-}
-
-.navbar-inverse .navbar-nav li a {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>.active>a:hover {
-    border-bottom: 2px solid #fff;
-    background-color: transparent;
-    
-}
-
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    text-align: center;
-}
-
-.navbar-inverse .navbar-toggle {
-    border-color: #fff;
-}
-
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #347ab8;
-}
-
-.navbar-brand {
-    font-size: 25px;
-    text-decoration: none !important;   
-}
-.navbar-brand a {
-    color: #fff !important;
-}
-
-nav .navbar.navsmall {
-    min-height: 53px;
-    padding: 0;
-}
-
-.dropdown-menu {
-    background-color: #193242;
-}
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: transparent;
-    border-bottom: 2px solid #fff;
-}
-.dropdown-menu>li>a:focus, 
-.dropdown-menu>li>a:hover {
-    background-color: transparent;
-    border-bottom: 2px solid #fff;
-}
-
 
 
 
@@ -596,7 +511,7 @@ hr.star-primary:after {
 }
 @media(max-width: 572px){
     #videos .box {
-        width: 160px;
+        width: 400px;
     }
     #videos .box .video iframe {
         height: 100%;
@@ -608,6 +523,15 @@ hr.star-primary:after {
     width: auto;
     padding: 8px 0px;
     }   
+}
+@media(max-width: 440px){
+     #videos .box {
+        width: 100%;
+    }
+    
+    #videos .box .video {
+        width: 100%;
+    }
 }
 
 
